@@ -1,0 +1,135 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+}
+
+
+
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc70;
+}
+
+/* ✅ DSA LAYOUT */
+.dsa-section {
+  padding: 0;
+  margin: 0;
+}
+
+.skills ul,
+.projects ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.dsa-surround-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 40px 20px;
+  margin-top: 0;        /* 🔥 REMOVE TOP SPACE COMPLETELY */
+  height: 100vh;        /* Ensures full screen height */
+  box-sizing: border-box;
+}
+
+.dsa-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* ✅ LARGER BOXES */
+
+.dsa-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff7e6;
+  border: 3px solid #ffcc70;
+  border-radius: 20px;
+  padding: 30px;
+  width: 240px;
+  height: 140px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;     /* ✅ Removes underline */
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.dsa-box:hover {
+  background-color: #ffe0a8;
+  transform: scale(1.07);
+  box-shadow: 0 12px 30px rgba(255, 204, 112, 0.5);
+  border-color: #ffaa00;
+  color: #000;
+  cursor: pointer;
+}
+.github-box {
+  background-color: #f5f5f5;
+  border: 3px solid #333;
+  color: #000;
+}
+
+.github-box:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.07);
+  border-color: #000;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+/* ✅ CENTER TEXT */
+.dsa-center-text {
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.dsa-center-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.dsa-center-text p {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.dsa-center-text h2 {
+  margin-top: 25px;
+  font-size: 26px;
+  color: #444;
+}
